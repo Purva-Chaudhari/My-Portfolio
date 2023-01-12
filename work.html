@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="index.html" class="logo"><strong>Portfolio</strong> -Know about me!</a>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/purva-chaudhari-02b12b178/" class="icon brands fa-linkedin"><span
+												class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									<li><a href="https://www.instagram.com/purva__chaudhari_/" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Internship Experience </h1>
+									</header>
+
+									<span class="image main"><img src="https://sgc-global.com/wp-content/uploads/2017/03/computer-technology-business-website-header.jpg" alt="" /></span>
+									<p>A brief about some of overall my work </p>
+
+									<hr class="major" />
+									<h2> <a href="https://compiler-research.org/team/#:~:text=Vassilev%2C%20Ioana%20Ifrim-,Purva%20Chaudhari,-Reduce%20boost%20dependencies">CERN IRIS-HEP</a></h2>
+									<img src = "https://hepsoftwarefoundation.org/images/CERN-HSF-GSoC-logo.png" width="200" height="100">
+								<br>Mentored by Dr David Lange and Dr Vassil Vassilev. (Sub organization: University of Princeton)
+									<h3>About project</h3>
+									<h4> Current Project </h4>	
+									The Clang compiler is part of the LLVM compiler infrastructure and supports various languages such as C, C++, ObjC and ObjC++. Advancements in JIT infstructure and usability of Clang libriries in LLVM has enabled research into processing C++. It has been challenging to include incremental compilation and fitting compile time optimizations into a more dynamic environment. Incremental compilation pipelines process code chunk-by-chunk by building an ever-growing translation unit. Code is then lowered into the LLVM IR and subsequently run by the LLVM JIT. The incremental compilation mode is used by the interactive C++ interpreter, Cling, initially developed to enable interactive high-energy physics analysis in a C++ environment. Clang-repl is a new-tool incroporated in LLVM ecosystem by residesigning parts of CLing in Clang mainline. The project aims at enhancing the error recovery when users type C++ at the prompt of clang-repl.<br><br>
+									<br> Co-authored the LLVM Lightening talk at LLVM Developers meeting 2022 - <a href="https://www.youtube.com/watch?v=LSPBPC2av54&list=PL_R5A0lGi1ACZDCQw533fo2dBljmOqIYx&index=24">Recovering from Errors in Clang-Repl and Code Undo</a>
+
+									<h4>Past Project</h4>
+									<p>This project had the objective to reduce CMSSW technical debt by finding and replacing boost dependencies that have an equivalent solution in standard C++. Reducing boost dependencies helps us create more lightweight boost clang modules for upcoming c++20. This also reduces the amount of headers that we need to work on to be able to use c++20 clang modules. 
+										
+									<hr class="major" />
+									
+									<h2><a href="https://summerofcode.withgoogle.com/projects/#5722209068253184">Google Summer of Code 21 and 22 </a></h2>
+									<img src="https://miro.medium.com/max/794/1*dnZ-w6hd5D7NLNBL8FMkSw.png">
+								<br>Mentor: Sergei Gleyzer <br>
+								Organization: Machine Learning for Science (ML4Sci). <br>
+								Project: End-to-End Deep Learning Reconstruction for CMS Experiment 
+									<h3>About project</h3>
+									The End to End framework provides functionality to run the CMSSW inference on various deep learning models for various taggers like Electron-Photon, Quark-Gluon, Top particles and perform the task of classification (regression to come soon). The user can add .pb file of the deep learning model to the framework and run the inference to benchmark the performance
+									<h4>GSoC 2022</h4>
+									As a part of GSoC 2022, I added regression support and Onnx inference to the E2E framework and thus enabled GPU support for it. We were able to benchmark the performance of inference on Perlmutter cluster during NSERC Nvidia GPU Hackathon and anaylsed the inference on nsys profiler
+									<h4> GSoC 2021</h4>
+									<p>I had a pleasure to be working on my project End-to-End Deep Learning Reconstruction for CMS Experiment as a part of Google Summer of Code 2021. I extended the integration framework to tau tagger, included few secondary channels like BPIX 4 and SiStrip layers — TOB, TIB, TEC, TID and benchmarked their performance.
+								           Read more about my project in the blog <a href="https://medium.com/@purva.chaudhari02/google-summer-of-code-2021-5cf8ef45d2d2">here</a>		
+								<hr class="major" />
+								<h2>Research Thesis at INCF</h2>
+									<img src="https://blog.f1000.com/wp-content/uploads/2016/06/INCF-Long_Logo_Pantone.jpg" width="500" height="100">
+								<br>I did my Bachelor Thesis at IMEC (project affiliated to International Neuroinformatics Coordinating Facility). I worked on the project Deep Learning For Using Geometric Features under supervisors Dr Dimiter Prodanov and Sumit Vohra. 
+									<h3>About project</h3>
+									<p> ImageJ is an OpenSource image processing tool written in Java which has been extremely helpful in the analysis of scientific images especially medical and microscopic. Active Segmentation is a plugin that aims to provide a general purpose workbench that would allow biologists to access state-of-the-art techniques in machine learning and image processing to improve their image segmentation results. It provides researchers an extensible toolbox enabling them to select custom filters and machine learning algorithms for their research.
+									    Post processing algorithms help to overcome the spatial inconsistencies which pave a way for robust pipelines. The algorithms used for post processing steps are either pixel-based, region-based or edge based. One such region-based algorithm called the connected components has been implemented as a part of the thesis on the Active Segmentation ImageJ Plugin. Connected components labeling is a technique used in computer vision to detect connected regions in binary images. The algorithm has been added as a post processing step to the deep learning panel of Active Segmentation plugin. We have used the ISBI challenge dataset to benchmark the performance of deep learning architectures with connected components.
+																	
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+						<h5>Last updated Jan 2023</h5>
+						<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+						
+							<ul>
+								<li><a href="index.html">Homepage</a></li>
+								<li>
+									<span class="opener">Work and Achievements</span>
+										<ul>
+											<li><a href="blockchain.html">Blockchain</a></li>
+											<li><a href="work.html">Other</a></li>
+											<li><a href="projects.html">Project</a></li>
+										</ul>
+									</li>
+								<li>
+									<span class="opener">Extra Curriculum</span>
+									<ul>
+										<li><a href="activities.html">Clubs and Activities</a></li>
+										<li><a href="yoga.html">Yoga</a></li>
+									</ul>
+
+								</li>
+				
+							</ul>
+						</nav>
+				
+				
+						<!-- Footer -->
+						<footer id="footer">
+							<p class="copyright"> Portfolio: Purva Chaudhari </p>
+						</footer>
+				
+					</div>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
